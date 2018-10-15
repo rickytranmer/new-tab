@@ -1,4 +1,4 @@
-const cacheName = '10.15.18c';
+const cacheName = '10.15.18d';
 const cacheFiles = [
     '../index.html',
     '../css/index.css',
