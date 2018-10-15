@@ -1,0 +1,9 @@
+{
+  "js/0.js": "js/0.js",
+  "index.js": "js/index.js",
+  "index.css": "css/index.css",
+  "js/1.js": "js/1.js",
+  "js/2.js": "js/2.js",
+  "runtime.js": "js/runtime.js",
+  "js/manifest.json": "js/manifest.json"
+}

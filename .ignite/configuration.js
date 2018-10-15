@@ -124,7 +124,7 @@ module.exports = {
         }
     },
     output: {
-        outputPath: 'build',
+        outputPath: 'docs',
         serverPath: '',
         inlineAssetMaxSize: 30000,
         clean: true,
