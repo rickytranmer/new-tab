@@ -8,6 +8,9 @@ Allow user to:
    - add
    - edit
    - remove
- ☐ mobile layout
- ☐ split screen layout
- ☐ full screen layout
+ ☐ toggle focus on input
+
+Layout:
+ ☐ mobile
+ ☐ split screen
+ ☐ full screen
