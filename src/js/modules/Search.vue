@@ -64,6 +64,11 @@ let searchKeys = [
         loc: 'https://www.google.com/search?q=%s&tbs=qdr:y',
     },
     {
+        short: 'bsm',
+        long: 'bing past month',
+        loc: 'https://www.bing.com/search?q=%s&filters=ex1%3a%22ez3%22',
+    },
+    {
         short: 'map',
         long: 'google maps',
         loc: 'https://www.google.com/maps/search/%s',
@@ -106,7 +111,7 @@ let searchKeys = [
     {
         short: 'mdn',
         long: 'mdn',
-        loc: 'https://www.google.com/search?q=%s+developer.mozilla.org',
+        loc: 'https://www.bing.com/search?q=%s+developer.mozilla.org',
     },
     {
         short: 'n',
@@ -121,7 +126,7 @@ let searchKeys = [
     {
         short: 'w3',
         long: 'w3',
-        loc: 'https://www.google.com/search?q=%s+w3schools.com',
+        loc: 'https://www.bing.com/search?q=%s+w3schools.com',
     },
     {
         short: 'wb',
