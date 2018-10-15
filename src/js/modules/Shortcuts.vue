@@ -32,12 +32,12 @@ let bookmarks = [
         loc: 'https://www.netflix.com/browse',
     },
     {
-        name: 'Showtime',
-        loc: 'https://www.showtimeanytime.com/?s_cid=da-default-4031',
+        name: 'MS Rewards',
+        loc: 'https://account.microsoft.com/rewards/',
     },
     {
-        name: 'Twitch',
-        loc: 'https://www.twitch.tv/directory/following',
+        name: 'Showtime',
+        loc: 'https://www.showtimeanytime.com/?s_cid=da-default-4031',
     },
     {
         name: 'Twitter',
