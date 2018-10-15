@@ -1,0 +1,27 @@
+form {
+    width: calc(100% * 11 / 12);
+    flex-basis: calc(100% * 3 / 12);
+
+    input {
+        height: 75px; width: 100%;
+        font-size: 50px;
+        text-align: center;
+        background-color: #333;
+        border-radius: 1rem;
+        border: 1px solid $white;
+        color: $white;
+        box-shadow: 1px 1px 1px 0 $white;
+    }
+    label {
+        height: calc((100% * 10 / 12) - 75px); width: 100%;
+        min-height: 150px;
+        font-size: 46px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        word-break: break-word;
+        color: white
+    }
+}

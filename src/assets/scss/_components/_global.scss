@@ -1,0 +1,63 @@
+/*
+	Defaults / Resets
+*/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: $body-font-family;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+
+  li {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+/*
+	Global Styles
+*/
+
+body {
+  background-color: $body-background;
+  color: $body-font-color;
+}
+main {
+  height: 100vh; width: 100vw;
+  overflow: hidden;
+  // padding: 2rem 0;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

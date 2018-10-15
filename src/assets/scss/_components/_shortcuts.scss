@@ -1,0 +1,47 @@
+section.shortcuts {
+    height: calc(100% * 9 / 12); width: 100%;
+    // padding: 1rem calc(100% / 24 + 1rem) 0;
+    padding-top: 1rem;
+    padding-left: calc(100% / 24 + .5rem);
+    text-align: left;
+    // border-top: 1px solid white;
+
+    h1 {
+        padding-left: 2rem;
+        display: none;
+    }
+
+    .shortcuts-container {
+        height: 100%; width: 100%;
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .shortcut {
+        height: 100px; width: calc(25% - (100% / 24 + .5rem));
+        border: 1px solid $green;
+        box-shadow: 5px 5px 0 0 #333;
+        // box-shadow: 5px 5px 0 0 green;
+        margin-right: calc(100% / 24 + .5rem);
+        transition: .25s ease all;
+        transition: .1s ease border, .1s ease box-shadow;
+
+        a {
+            height: 100%; width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $white;
+            text-align: center;
+        }
+
+        &:hover {
+            border-color: green;
+            box-shadow: none;
+            a { color: white; }
+        }
+    }
+}

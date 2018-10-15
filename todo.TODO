@@ -1,0 +1,13 @@
+Allow user to:
+ ☐ save settings to localStorage/DB
+ ☐ key
+   - add
+   - edit
+   - remove
+ ☐ shortcut
+   - add
+   - edit
+   - remove
+ ☐ mobile layout
+ ☐ split screen layout
+ ☐ full screen layout
