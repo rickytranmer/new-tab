@@ -9,7 +9,7 @@
   "scripts": {
     "watch": "webpack --env.NODE_ENV=development -w --hide-modules --env.watch",
     "start": "webpack-dev-server --history-api-fallback --env.NODE_ENV=development --env.watch",
-    "build": "webpack --env.NODE_ENV=production -p && gulp",
+    "build": "webpack --env.NODE_ENV=production -p && gulp && echo && date && git status -s && echo",
     "build-dev": "webpack --env.NODE_ENV=development",
     "optimize": "webpack --env.NODE_ENV=production --env.optimize --profile",
     "optimize-dev": "webpack --env.NODE_ENV=development --env.optimize --profile"
