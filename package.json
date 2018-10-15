@@ -12,7 +12,8 @@
     "build": "webpack --env.NODE_ENV=production -p && gulp && echo && echo Built: && date && git status -s && echo",
     "build-dev": "webpack --env.NODE_ENV=development",
     "optimize": "webpack --env.NODE_ENV=production --env.optimize --profile",
-    "optimize-dev": "webpack --env.NODE_ENV=development --env.optimize --profile"
+    "optimize-dev": "webpack --env.NODE_ENV=development --env.optimize --profile",
+    "sw": "git acm 'update service-worker' && git push"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
